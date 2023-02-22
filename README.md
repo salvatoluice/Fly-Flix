@@ -1,4 +1,5 @@
-# React Movie Application using TMDB API
+# FlyFlix
+* A react application developed with tmdb api
 This is a React application that displays information about movies using the TMDB API. The application was developed by Salvato Luis.
 
 ## Getting Started
@@ -6,7 +7,7 @@ To get started with this application, follow the steps below:
 
 Clone this repository to your local machine.
 Install the dependencies by running npm install.
-Rename the .env.sample file to .env and add your TMDB API key to the REACT_APP_TMDB_API_KEY variable.
+Make sure to use your own tmdb api key.
 Run the application by running npm start.
 Open your browser and go to http://localhost:3000 to view the application.
 ## Features
@@ -34,8 +35,8 @@ This application uses the TMDB API to fetch movie data. You will need to sign up
 This application was developed by Salvato Luis.
 
 ## License
-This application is licensed under the MIT license. See the LICENSE file for more information.
+* This application is licensed under the MIT license. See the LICENSE file for more information.
 
 ## Acknowledgments
-This application was developed as part of a React tutorial.
-Thanks to the TMDB API for providing movie data.
+* This application was developed for a test submission.
+* Thanks to the TMDB API for providing movie data.
