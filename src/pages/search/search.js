@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Moviesearch from './Moviesearch';
+import MovieSearch from './MovieSearch';
 
 const Search = () => {
   const [query, setQuery] = useState('');
@@ -38,7 +38,7 @@ const Search = () => {
         />
         <button type="submit">Search</button>
       </form>
-      {error ? <div>{error}</div> : <Moviesearch movies={movies} />}
+      {error ? <div>{error}</div> : <MovieSearch movies={movies} />}
     </div>
   );
 };

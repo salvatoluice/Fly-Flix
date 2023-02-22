@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# React Movie Application using TMDB API
+This is a React application that displays information about movies using the TMDB API. The application was developed by Salvato Luis.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+To get started with this application, follow the steps below:
 
-## Available Scripts
+Clone this repository to your local machine.
+Install the dependencies by running npm install.
+Rename the .env.sample file to .env and add your TMDB API key to the REACT_APP_TMDB_API_KEY variable.
+Run the application by running npm start.
+Open your browser and go to http://localhost:3000 to view the application.
+## Features
+The React Movie Application has the following features:
 
-In the project directory, you can run:
+Home page: displays a list of popular movies
+Movie detail page: displays detailed information about a specific movie, including the title, poster, release date, and overview
+Search page: allows users to search for movies by title
+Error handling: displays an error message when the API request fails
+## Known Issues and bugs
+The application currently has the following known issue:
 
-### `npm start`
+The clone may likely fail to run on your your local host if we are are on different versions of node and npm. Therefore, use the hosted link to acces the site as you reference the source code.
+## Dependencies
+This application uses the following dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+react: a JavaScript library for building user interfaces
+react-router-dom: a package that provides client-side routing for React applications
+axios: a promise-based HTTP client for the browser and Node.js
+react-icons: a package that provides a set of icons for React applications
+## API Reference
+This application uses the TMDB API to fetch movie data. You will need to sign up for an account and obtain an API key to use this application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Author
+This application was developed by Salvato Luis.
 
-### `npm test`
+## License
+This application is licensed under the MIT license. See the LICENSE file for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+This application was developed as part of a React tutorial.
+Thanks to the TMDB API for providing movie data.
